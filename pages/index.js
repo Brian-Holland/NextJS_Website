@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const HomePage = () => {
 	return (
-		<main>
+		<section id="main-land">
 			<Container className="mt-5">
 				<Row>
 					<Col className="d-flex-column" style={{ paddingTop: '12%', paddingLeft: '15%' }}>
@@ -29,7 +29,7 @@ const HomePage = () => {
 					</Col>
 				</Row>
 			</Container>
-		</main>
+		</section>
 	);
 };
 
