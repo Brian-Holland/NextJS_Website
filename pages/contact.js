@@ -12,8 +12,20 @@ const ContactPage = () => {
 					<br />
 					<br />
 				</p>
-				<Form name="contact v1" method="POST" data-netlify="true" onSubmit="submit">
+				<Form
+					name="contact v1"
+					method="POST"
+					data-netlify="true"
+					onSubmit="submit"
+					data-netlify-honeypot="bot-field"
+				>
 					<input type="hidden" name="form-name" value="contact v1" />
+					<div hidden>
+						<label>
+							Don't fill this out (bot catching only)
+							<input name="bot-field" />
+						</label>
+					</div>
 					<Row>
 						<Col md={4}>
 							<Form.Group>
@@ -58,7 +70,7 @@ const ContactPage = () => {
 							required
 							as="textarea"
 							rows="4"
-							placeholer="Write you message here."
+							placeholder="Write you message here"
 							name="message"
 						/>
 					</Form.Group>

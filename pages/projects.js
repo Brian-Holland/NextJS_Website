@@ -11,9 +11,9 @@ const ProjectPage = () => {
 					Check out a few of my projects below.
 					<br />
 					<br />
-					My full GitHub portfolio can be found
+					My full GitHub portfolio can be found{' '}
 					<Link href="https://github.com/Brian-Holland" target="_blank" passHref>
-						<a> here</a>
+						<a>here</a>
 					</Link>
 					.
 				</p>
@@ -21,9 +21,9 @@ const ProjectPage = () => {
 
 			<CardDeck>
 				<Card className="mb-4">
+					<Card.Title className="text-center pt-2">Contact Keeper</Card.Title>
 					<Card.Img variant="top" src="imgs/contact.png" />
 					<Card.Body>
-						<Card.Title className="text-center">Contact Keeper</Card.Title>
 						<Card.Text>
 							Full stack MERN app allowing users to create accounts and login using validation and
 							authentication, store contacts using full CRUD commands, search for contacts, and a utilizes
@@ -35,9 +35,7 @@ const ProjectPage = () => {
 						>
 							<Link href="https://contactkeeper-react-app.herokuapp.com/" target="_blank" passHref>
 								<a>
-									<Button className="d-inline-flex" variant="outline-primary">
-										Live
-									</Button>
+									<Button variant="outline-primary">Live</Button>
 								</a>
 							</Link>
 							<Link href="https://github.com/Brian-Holland/Contact-Keeper" target="_blank" passHref>
@@ -51,9 +49,9 @@ const ProjectPage = () => {
 					</Card.Body>
 				</Card>
 				<Card className="mb-4">
+					<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
 					<Card.Img variant="top" src="/imgs/githubfinder.png" />
 					<Card.Body>
-						<Card.Title className="text-center">GitHub Finder</Card.Title>
 						<Card.Text>
 							React application allowing users to search for GitHub profiles by fetching info from the
 							GitHub API, presents the search results in a custom way, and displays a custom version of a
@@ -77,9 +75,9 @@ const ProjectPage = () => {
 					</Card.Body>
 				</Card>
 				<Card className="mb-4">
-					<Card.Img variant="top" src="/imgs/twitterbot.png" />
+					<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
+					<Card.Img src="/imgs/twitterbot.png" variant="bottom" />
 					<Card.Body>
-						<Card.Title className="text-center">Twitter Post Bot</Card.Title>
 						<Card.Text>
 							Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes the
 							Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot will alert user when
@@ -91,9 +89,7 @@ const ProjectPage = () => {
 						>
 							<Link href="https://twitter.com/dev_quote_bot" target="_blank" passHref>
 								<a>
-									<Button className="d-inline-flex" variant="outline-primary">
-										Live
-									</Button>
+									<Button variant="outline-primary">Live</Button>
 								</a>
 							</Link>
 							<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" target="_blank" passHref>
