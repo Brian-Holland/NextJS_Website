@@ -1,0 +1,90 @@
+main {
+	min-height: 80vh;
+}
+
+#navadjusted {
+	border: none;
+}
+
+#profile-img {
+	height: 200px;
+	width: 200px;
+}
+
+#resume-hr {
+	color: #2a9fd6;
+}
+
+.text-em {
+	color: #2a9fd6;
+	text-shadow: 3px 0 0 #c00;
+}
+
+.tw {
+	font-size: 1.3rem;
+}
+
+.bottom-line {
+	height: 2px;
+	width: 5rem;
+	background: #2a9fd6;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
+#about-bio .about-info {
+	display: grid;
+	grid-template-areas: "bioimage bio";
+	gap: 1.1rem;
+}
+
+#about-bio .bio-image {
+	grid-area: bioimage;
+}
+
+#about-bio .bio {
+	grid-area: bio;
+	border-left: 3px solid #2a9fd6;
+	padding-top: 0.5rem;
+	padding-bottom: .8rem;
+	padding-left: .9rem;
+}
+
+.resume-ul {
+	list-style-type: disc;
+	margin-left: 2.25rem;
+}
+
+.job-ul {
+	column-count: 2;
+}
+
+.skill-ul {
+	column-count: 3;
+}
+
+.practice-ul {
+	column-count: 2;
+}
+
+@media (max-width: 500px) {
+	.skill-ul,
+	.practice-ul {
+		column-count: 2;
+	}
+
+	#about-bio .about-info {
+		grid-template-areas: "bioimage" "bio";
+	}
+
+	#about-bio img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+
+	#about-bio .bio {
+		border: none;
+	}
+}
