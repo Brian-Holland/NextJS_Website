@@ -15,6 +15,10 @@
 	color: #2a9fd6;
 }
 
+a:hover {
+	color: #1d7097;
+	text-decoration: none;
+}
 .text-em {
 	color: #2a9fd6;
 	text-shadow: 3px 0 0 #c00;
