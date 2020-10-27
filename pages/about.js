@@ -21,7 +21,7 @@ const AboutPage = () => {
 							my projects have utilized the MERN stack (MongoDB, Express, React, Node), but I have also
 							been exposed to Java, Python, MySQL, and React Native. I am constantly learning and looking
 							forward to working with a team that strives to make an impact. I can learn any language or
-							technology that is bet fit for the job.
+							technology that is best fit for the job.
 						</p>
 					</div>
 				</div>
