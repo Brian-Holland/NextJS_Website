@@ -68,9 +68,8 @@ const ContactPage = () => {
 							</Col>
 							<Col md={4}>
 								<Form.Group>
-									<Form.Label>Phone Number</Form.Label>
+									<Form.Label>Phone Number (Optional)</Form.Label>
 									<Form.Control
-										required
 										size="lg"
 										type="text"
 										placeholder="Enter your phone number"
