@@ -27,8 +27,8 @@ const ProjectPage = () => {
 						<br />
 						<br />
 						My full GitHub portfolio can be found{' '}
-						<Link href="https://github.com/Brian-Holland" target="_blank" passHref>
-							<a>here</a>
+						<Link href="https://github.com/Brian-Holland" passHref>
+							<a target="_blank">here</a>
 						</Link>
 						.
 					</p>
@@ -48,13 +48,13 @@ const ProjectPage = () => {
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://contactkeeper-react-app.herokuapp.com/" target="_blank" passHref>
-									<a>
+								<Link href="https://contactkeeper-react-app.herokuapp.com/" passHref>
+									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/Contact-Keeper" target="_blank" passHref>
-									<a>
+								<Link href="https://github.com/Brian-Holland/Contact-Keeper" passHref>
+									<a target="_blank">
 										<Button className variant="outline-primary">
 											Repo
 										</Button>
@@ -80,13 +80,13 @@ const ProjectPage = () => {
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://github-find-app.netlify.app" target="_blank" passHref>
-									<a>
+								<Link href="https://github-find-app.netlify.app" passHref>
+									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/GitHub-Finder" target="_blank" passHref>
-									<a>
+								<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
+									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
@@ -110,13 +110,13 @@ const ProjectPage = () => {
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://twitter.com/dev_quote_bot" target="_blank" passHref>
-									<a>
+								<Link href="https://twitter.com/dev_quote_bot" passHref>
+									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" target="_blank" passHref>
-									<a>
+								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
+									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>

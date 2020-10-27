@@ -25,8 +25,8 @@ const ResumePage = () => {
 					<div className="bottom-line" />
 					<p className="text-center my-3">Download my resume or view below</p>
 					<div className="text-center">
-						<Link href="BrianHollandResume.pdf" target="_blank" passHref download>
-							<a>
+						<Link href="BrianHollandResume.pdf" passHref download>
+							<a target="_blank">
 								<Button variant="outline-primary">Download Resume</Button>
 							</a>
 						</Link>
@@ -40,12 +40,12 @@ const ResumePage = () => {
 						Email: Brian.Holland.PR@gmail.com<br />
 						Website:
 						<Link href="https://www.brian-holland.com" passHref>
-							<a> https://www.brian-holland.com</a>
+							<a target="_blank"> https://www.brian-holland.com</a>
 						</Link>
 						<br />
 						Project Portfolio:
 						<Link href="https://github.com/Brian-Holland" passHref>
-							<a> https://github.com/Brian-Holland</a>
+							<a target="_blank"> https://github.com/Brian-Holland</a>
 						</Link>
 						<br />
 					</p>
@@ -61,12 +61,12 @@ const ResumePage = () => {
 							using full CRUD commands.<br />
 							<strong>Deployment</strong>:
 							<Link href="https://contactkeeper-react-app.herokuapp.com/" passHref>
-								<a> https://contactkeeper-react-app.herokuapp.com/</a>
+								<a target="_blank"> https://contactkeeper-react-app.herokuapp.com/</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/Contact-Keeper" passHref>
-								<a> https://github.com/Brian-Holland/Contact-Keeper</a>
+								<a target="_blank"> https://github.com/Brian-Holland/Contact-Keeper</a>
 							</Link>
 							<br />
 							<br />
@@ -79,12 +79,12 @@ const ResumePage = () => {
 							information and displays the API response in a custom profile component.<br />
 							<strong>Deployment</strong>:
 							<Link href="https://github-find-app.netlify.app" passHref>
-								<a> https://github-find-app.netlify.app</a>
+								<a target="_blank"> https://github-find-app.netlify.app</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
-								<a> https://github.com/Brian-Holland/GitHub-Finder</a>
+								<a target="_blank"> https://github.com/Brian-Holland/GitHub-Finder</a>
 							</Link>
 							<br />
 							<br />
@@ -98,12 +98,12 @@ const ResumePage = () => {
 							Cloud Scheduler.<br />
 							<strong>Deployment</strong>:
 							<Link href="https://twitter.com/Dev_Quote_Bot" passHref>
-								<a> https://twitter.com/Dev_Quote_Bot</a>
+								<a target="_blank"> https://twitter.com/Dev_Quote_Bot</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
-								<a> https://github.com/Brian-Holland/Twitter_Post_Bot</a>
+								<a target="_blank"> https://github.com/Brian-Holland/Twitter_Post_Bot</a>
 							</Link>
 							<br />
 						</li>
