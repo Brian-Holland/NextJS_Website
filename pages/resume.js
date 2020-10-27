@@ -15,7 +15,7 @@ const ResumePage = () => {
 					content="Software engineer portfolio website for Brian Holland of the San Francisco Bay Area including a resume, project listing, contact information, and more."
 				/>
 				<meta property="og:title" content="Brian Holland | Software Engineer" />
-				<meta property="og:image" content="imgs/favicon.jpg" />
+				<meta property="og:image" content="/imgs/screenshot.png" />
 				<meta property="og:url" content="https://www.brian-holland.com" />
 				<title>Brian Holland | Software Engineer</title>
 			</Head>
