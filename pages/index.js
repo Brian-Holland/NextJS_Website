@@ -36,7 +36,7 @@ const HomePage = () => {
 								/>
 							</h2>
 							<p className="text-secondary">Full Stack Engineer / JavaScript Specialist</p>
-							<Link href="/projects">
+							<Link href="/projects" passHref>
 								<a>
 									<Button variant="outline-primary">Projects</Button>
 								</a>
