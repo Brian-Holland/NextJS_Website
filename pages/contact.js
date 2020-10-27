@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Link from 'next/link';
 
