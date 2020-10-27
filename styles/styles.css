@@ -201,6 +201,9 @@ section.space {
 	.practice-ul {
 		column-count: 2;
 	}
+	.resume-ul {
+		margin: 0;
+	}
 
 	#about-bio .about-info {
 		grid-template-areas: "bioimage" "bio";
