@@ -22,7 +22,6 @@ const HomePage = () => {
 				<meta property="og:title" content="Brian Holland | Software Engineer" />
 				<meta property="og:image" content="imgs/favicon.jpg" />
 				<meta property="og:url" content="https://www.brian-holland.com" />
-				<link rel="stylesheet" href="css/main.css" />
 				<title>Brian Holland | Software Engineer</title>
 			</Head>
 			<section id="main-land">
