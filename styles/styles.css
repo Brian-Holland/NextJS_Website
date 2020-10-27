@@ -79,29 +79,34 @@ section.space {
 }
 
 .sentence {
-	padding-top: 16%;
+	padding-top: 18%;
+	z-index: 999;
 }
 
-.space {
+/* .space {
 	background-image: url("/imgs/space.jpg");
 	background-size: contain;
-}
+} */
 
 .move {
+	top: 80%;
 	position: absolute;
-	animation: moveword 10s infinite linear;
+	animation: moveword 5s 1 linear;
 }
 .spin {
 	position: absolute;
-	animation: spin 7s infinite linear;
+	opacity: 0;
+	animation: spin 5s 1 linear;
 }
 
 @keyframes spin {
 	from {
 		transform: rotate(0deg);
+		opacity: 1;
 	}
 	to {
 		transform: rotate(360deg);
+		opacity: 1;
 	}
 }
 
@@ -110,13 +115,87 @@ section.space {
 		left: -10%;
 	}
 	to {
-		left: 92%;
+		left: 93%;
 	}
+}
+
+@keyframes move-twink-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
+}
+@-webkit-keyframes move-twink-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
+}
+@-moz-keyframes move-twink-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
+}
+@-ms-keyframes move-twink-back {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
+}
+
+.stars,
+.twinkling {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.stars {
+	background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+	z-index: -1;
+}
+
+.twinkling {
+	background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+	z-index: -1;
+
+	-moz-animation: move-twink-back 200s linear infinite;
+	-ms-animation: move-twink-back 200s linear infinite;
+	-o-animation: move-twink-back 200s linear infinite;
+	-webkit-animation: move-twink-back 200s linear infinite;
+	animation: move-twink-back 200s linear infinite;
 }
 
 @media (max-width: 500px) {
 	#typed {
 		font-size: 2rem;
+	}
+
+	.sentence {
+		padding-top: 75%;
+		z-index: 999;
+		font-size: 1.4rem;
+	}
+
+	.spin {
+		font-size: 1.4rem;
+	}
+	.move {
+		top: 90%;
 	}
 	.skill-ul,
 	.practice-ul {
