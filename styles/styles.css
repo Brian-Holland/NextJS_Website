@@ -26,6 +26,9 @@
 
 .right-wall {
 	border-right: 3px solid #2a9fd6;
+	padding-top: 0.5rem;
+	padding-bottom: .8rem;
+	padding-left: .9rem;
 }
 
 .bottom-line {
