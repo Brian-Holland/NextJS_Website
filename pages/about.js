@@ -1,8 +1,22 @@
+import Head from 'next/head';
 import { Container } from 'react-bootstrap';
 
 const AboutPage = () => {
 	return (
 		<Container>
+			<Head>
+				<title>Brian Holland | Software Engineer</title>
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta
+					name="description"
+					content="Software engineer portfolio website for Brian Holland of the San Francisco Bay Area including a resume, project listing, contact information, and more."
+				/>
+				<meta property="og:title" content="Brian Holland | Software Engineer" />
+				<meta property="og:image" content="imgs/favicon.jpg" />
+				<meta property="og:url" content="https://www.brian-holland.com" />
+				<title>Brian Holland | Software Engineer</title>
+			</Head>
 			<section id="about-bio" className="py-5 mt-5">
 				<h2 className="text-center">About Me</h2>
 				<div className="bottom-line" />
