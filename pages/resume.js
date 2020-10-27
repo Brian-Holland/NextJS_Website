@@ -33,7 +33,7 @@ const ResumePage = () => {
 					</div>
 				</section>
 
-				<section className="pb-2 px-5">
+				<section id="resume-print" className="pb-2 px-3">
 					<h4>Brian Holland</h4>
 					<p>
 						Phone: 707-761-7595<br />

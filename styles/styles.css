@@ -216,4 +216,9 @@ section.space {
 	#about-bio .bio {
 		border: none;
 	}
+
+	#resume-print {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
