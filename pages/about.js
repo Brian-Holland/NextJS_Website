@@ -5,11 +5,11 @@ const AboutPage = () => {
 		<Container>
 			<section id="about-bio" className="py-5 mt-5">
 				<h2 className="text-center">About Me</h2>
-				<div className="bottom-line" />
+				<div className="bottom-line mb-3" />
 				<div className="about-info my-5">
 					<img className="bio-image rounded" src="/imgs/profile.jpg" alt="profile picture" />
 					<div className="bio">
-						<h5 className="text-center mb-4">A Quick Background</h5>
+						<h5 className="text-center mb-3">A Quick Background</h5>
 						<p>
 							My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 							taught myself full stack engineering from the fundamentals to building applications while
