@@ -26,8 +26,8 @@
 
 .right-wall {
 	border-right: 3px solid #2a9fd6;
-	padding-top: 0.3rem;
-	padding-bottom: .7rem;
+	padding-top: 0.4rem;
+	padding-bottom: .6rem;
 	padding-right: .8rem;
 }
 
@@ -72,6 +72,46 @@
 
 .practice-ul {
 	column-count: 2;
+}
+
+section.space {
+	height: 100vh;
+}
+
+.sentence {
+	padding-top: 18%;
+}
+
+.space {
+	background-image: url("/imgs/space.jpg");
+	background-size: contain;
+}
+
+.move {
+	position: absolute;
+	animation: moveword 10s infinite linear;
+}
+.spin {
+	position: absolute;
+	animation: spin 7s infinite linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes moveword {
+	from {
+		left: -10%;
+	}
+	to {
+		left: 92%;
+	}
 }
 
 @media (max-width: 500px) {
