@@ -8,7 +8,7 @@ const HomePage = () => {
 			<Container className="mt-5">
 				<Row>
 					<Col className="d-flex-column" style={{ paddingTop: '12%', paddingLeft: '15%' }}>
-						<h2>
+						<h2 id="typed">
 							Hello, <br />
 							I'm <span className="text-em">B</span>rian, the
 							<br />

@@ -79,7 +79,7 @@ section.space {
 }
 
 .sentence {
-	padding-top: 18%;
+	padding-top: 16%;
 }
 
 .space {
@@ -115,6 +115,9 @@ section.space {
 }
 
 @media (max-width: 500px) {
+	#typed {
+		font-size: 2rem;
+	}
 	.skill-ul,
 	.practice-ul {
 		column-count: 2;
