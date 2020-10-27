@@ -37,7 +37,7 @@ const ProjectPage = () => {
 				<CardDeck>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Contact Keeper</Card.Title>
-						<Card.Img variant="top" src="imgs/contact.png" />
+						<Card.Img variant="top" src="imgs/contact.png" alt="contact keeper application screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Full stack MERN app allowing users to create accounts and login using validation and
@@ -65,7 +65,11 @@ const ProjectPage = () => {
 					</Card>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
-						<Card.Img variant="top" src="/imgs/githubfinder.png" />
+						<Card.Img
+							variant="top"
+							src="/imgs/githubfinder.png"
+							alt="github finder application screenshot"
+						/>
 						<Card.Body>
 							<Card.Text>
 								React application allowing users to search for GitHub profiles by fetching info from the
@@ -91,7 +95,11 @@ const ProjectPage = () => {
 					</Card>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
-						<Card.Img src="/imgs/twitterbot.png" variant="bottom" />
+						<Card.Img
+							src="/imgs/twitterbot.png"
+							variant="bottom"
+							alt="twitter bot application screenshot"
+						/>
 						<Card.Body>
 							<Card.Text>
 								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes
