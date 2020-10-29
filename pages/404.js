@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 export default function Custom404() {
 	const router = useRouter();
 
-	const nameOfPage = router.asPath.slice(1);
+	const nameOfPage = router.asPath.slice(1).replace('%20', ' ');
 
 	return (
 		<div>
