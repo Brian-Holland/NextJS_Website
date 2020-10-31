@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 export default function Custom404() {
 	const router = useRouter();
 
-	const nameOfPage = router.asPath.slice(1).replace('%20', ' ');
+	const nameOfPage = router.asPath.slice(1).replace(/%20/g, ' ');
 
 	return (
 		<div>
@@ -26,8 +26,8 @@ export default function Custom404() {
 			</Head>
 			<Container fluid>
 				<section>
-					<div class="stars" />
-					<div class="twinkling" />
+					<div className="stars" />
+					<div className="twinkling" />
 
 					<div style={{ position: 'relative' }}>
 						<h4 className="text-center sentence">
