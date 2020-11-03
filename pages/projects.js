@@ -1,13 +1,12 @@
 import Head from 'next/head';
-import { Container, Card, CardDeck, Button } from 'react-bootstrap';
+import { Container, Card, CardDeck, Button, Row } from 'react-bootstrap';
 import Link from 'next/link';
 
 const ProjectPage = () => {
 	return (
 		<div>
 			<Head>
-				<title>Brian Holland | Software Engineer</title>
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="description"
@@ -116,6 +115,84 @@ const ProjectPage = () => {
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</CardDeck>
+				<CardDeck>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
+						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
+						<Card.Body>
+							<Card.Text>
+								React application using Axios that pulls dad jokes from an external API and displays
+								them for users. Users can up- or downvote jokes, changing their vote count and altering
+								the visual display. {' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://react-dadjokes.netlify.app" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Card Dealer</Card.Title>
+						<Card.Img variant="top" src="/imgs/dealer.png" alt="react card dealer application screenshot" />
+						<Card.Body>
+							<Card.Text>
+								React application using Axios with an external card API to create a shuffle a deck when
+								the component mounts, draw cards, and display pulled cards on screen.{' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="react-card-dealer.netlify.app" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/React_Card_Dealer" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Mobile Detailer Website</Card.Title>
+						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />
+						<Card.Body>
+							<Card.Text>
+								Website created for a local mobile detailing service. Built using basic HTML, CSS, and
+								Bootstrap for styling. Development site deployed on Netlify.{' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://waxandshine.netlify.app/" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/waxandshine_websiter" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>

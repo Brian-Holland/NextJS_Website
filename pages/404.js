@@ -12,7 +12,6 @@ export default function Custom404() {
 	return (
 		<div>
 			<Head>
-				<title>Brian Holland | Software Engineer</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
@@ -39,7 +38,11 @@ export default function Custom404() {
 											console.log('String typed out!');
 										})
 										.pauseFor(2300)
-										.typeString(`${nameOfPage} was The Imposter`)
+										.typeString(
+											nameOfPage.toLowerCase() === 'domm'
+												? `${nameOfPage} was not An Impostor`
+												: `${nameOfPage} was An Impostor`
+										)
 										.start();
 								}}
 							/>
