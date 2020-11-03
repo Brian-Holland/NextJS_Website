@@ -155,7 +155,7 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/dealer.png" alt="react card dealer application screenshot" />
 						<Card.Body>
 							<Card.Text>
-								React application using Axios with an external card API to create a shuffle a deck when
+								React application using Axios with an external card API to create a shuffled deck when
 								the component mounts, draw cards, and display pulled cards on screen.{' '}
 							</Card.Text>
 							<div
