@@ -20,7 +20,7 @@ const ResumePage = () => {
 			</Head>
 			<Container>
 				<section className="py-5 mt-5">
-					<h1 className="h2 text-center">Resume</h1>
+					<h1 className="h2 text-center">My Resume</h1>
 					<div className="bottom-line" />
 					<p className="text-center my-3">Download my resume or view below</p>
 					<div className="text-center">
