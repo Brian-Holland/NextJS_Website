@@ -29,7 +29,7 @@ export default function Custom404() {
 					<div className="twinkling" />
 
 					<div style={{ position: 'relative' }}>
-						<h4 className="text-center sentence">
+						<h1 className="h4 text-center sentence">
 							<Typewriter
 								onInit={(typewriter) => {
 									console.log(typewriter);
@@ -46,7 +46,7 @@ export default function Custom404() {
 										.start();
 								}}
 							/>
-						</h4>
+						</h1>
 
 						<div className="move">
 							<h2 className="spin">404</h2>

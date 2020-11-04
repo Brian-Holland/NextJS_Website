@@ -19,7 +19,7 @@ const ContactPage = () => {
 			</Head>
 			<section className="py-5 mt-5">
 				<Container>
-					<h2 className="text-center">Contact Me</h2>
+					<h1 className="h2 text-center">Contact Me</h1>
 					<div className="bottom-line" />
 					<p className="text-center my-3">
 						You can use the form below to contact me.

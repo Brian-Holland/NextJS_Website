@@ -20,7 +20,7 @@ const ResumePage = () => {
 			</Head>
 			<Container>
 				<section className="py-5 mt-5">
-					<h2 className="text-center">Resume</h2>
+					<h1 className="h2 text-center">Resume</h1>
 					<div className="bottom-line" />
 					<p className="text-center my-3">Download my resume or view below</p>
 					<div className="text-center">
@@ -33,7 +33,7 @@ const ResumePage = () => {
 				</section>
 
 				<section id="resume-print" className="pb-2 px-3">
-					<h4>Brian Holland</h4>
+					<h2 className="h4">Brian Holland</h2>
 					<p>
 						Phone: 707-761-7595<br />
 						Email: Brian.Holland.PR@gmail.com<br />
@@ -49,7 +49,7 @@ const ResumePage = () => {
 						<br />
 					</p>
 					<hr id="resume-hr" />
-					<h5>Projects</h5>
+					<h3 className="h5">Projects</h3>
 					<ul className="resume-ul">
 						<li>
 							<strong>
@@ -108,7 +108,7 @@ const ResumePage = () => {
 						</li>
 					</ul>
 					<br />
-					<h5>Skills</h5>
+					<h3 className="h5">Skills</h3>
 					<ul className="resume-ul skill-ul">
 						<li>JavaScript</li>
 						<li>React</li>
@@ -124,8 +124,8 @@ const ResumePage = () => {
 						<li>Accessibility</li>
 					</ul>
 					<br />
-					<h5>Work History</h5>
-					<h6>Aladdin Bail Bonds</h6>
+					<h3 className="h5">Work History</h3>
+					<h4 className="h6">Aladdin Bail Bonds</h4>
 					<ul className="job-ul">
 						<li>Senior Underwriter</li>
 						<li>March 2015 - March 2020</li>
@@ -135,7 +135,7 @@ const ResumePage = () => {
 						underwriters that consistently broke monthly and yearly sales records.
 					</p>
 					<br />
-					<h6>Brenden Theatres</h6>
+					<h4 className="h6">Brenden Theatres</h4>
 					<ul className="job-ul">
 						<li>Manager</li>
 						<li>October 2008 - March 2015</li>
@@ -146,8 +146,8 @@ const ResumePage = () => {
 						general theater operations.
 					</p>
 					<br />
-					<h5>Education</h5>
-					<h6>CSU Sacramento</h6>
+					<h3 className="h5">Education</h3>
+					<h4 className="h6">CSU Sacramento</h4>
 					<p>
 						<em>B.A. Communication Studies, Public Relations </em>
 					</p>

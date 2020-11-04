@@ -19,7 +19,7 @@ const ProjectPage = () => {
 			</Head>
 			<Container>
 				<section className="py-5 mt-5">
-					<h2 className="text-center">My Work</h2>
+					<h1 className="h2 text-center">My Work</h1>
 					<div className="bottom-line" />
 					<p className="text-center my-3">
 						Check out a few of my projects below.
