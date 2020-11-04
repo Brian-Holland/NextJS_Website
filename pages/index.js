@@ -22,7 +22,7 @@ const HomePage = () => {
 				<Container className="mt-5">
 					<Row>
 						<Col className="d-flex-column" style={{ paddingTop: '12%', paddingLeft: '15%' }}>
-							<h2 id="typed">
+							<h1 id="typed" className="h2">
 								Hello, <br />
 								I'm <span className="text-em">B</span>rian, the
 								<br />
@@ -33,7 +33,7 @@ const HomePage = () => {
 										loop: true
 									}}
 								/>
-							</h2>
+							</h1>
 							<p className="text-secondary">Full Stack Engineer / JavaScript Specialist</p>
 							<Link href="/projects" passHref>
 								<a>

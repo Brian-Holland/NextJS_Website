@@ -40,8 +40,8 @@ export default function Custom404() {
 										.pauseFor(2300)
 										.typeString(
 											nameOfPage.toLowerCase() === 'domm'
-												? `${nameOfPage} was not An Impostor`
-												: `${nameOfPage} was An Impostor`
+												? `${nameOfPage} was not The Impostor`
+												: `${nameOfPage} was The Impostor`
 										)
 										.start();
 								}}
