@@ -18,12 +18,12 @@ const AboutPage = () => {
 			</Head>
 			<Container>
 				<section id="about-bio" className="py-5 mt-5">
-					<h2 className="text-center">About Me</h2>
+					<h1 className="text-center h2">About Me</h1>
 					<div className="bottom-line" />
 					<div className="about-info my-5">
 						<img className="bio-image rounded" src="/imgs/profile.jpg" alt="profile picture" />
 						<div className="bio">
-							<h5 className="text-center mb-3">A Quick Background</h5>
+							<h2 className="text-center mb-3 h5">A Quick Background</h2>
 							<p>
 								My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 								taught myself full stack engineering from the fundamentals to building applications
