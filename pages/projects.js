@@ -160,8 +160,8 @@ const ProjectPage = () => {
 						<Card.Body>
 							<Card.Text>
 								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes
-								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot will alert
-								user when pre-written tweet database is empty.
+								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot alerts use
+								when tweet database is empty.
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
@@ -186,8 +186,9 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Website created for a local mobile detailing service. Built using basic HTML, CSS, and
-								Bootstrap for styling. Development site deployed on Netlify.{' '}
+								Static website created for a local mobile detailing service. Consulted with client and
+								built using basic HTML, CSS, and Bootstrap for styling. Development site deployed on
+								Netlify.{' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
