@@ -62,6 +62,7 @@ const ProjectPage = () => {
 							</div>
 						</Card.Body>
 					</Card>
+
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
 						<Card.Img
@@ -92,6 +93,63 @@ const ProjectPage = () => {
 							</div>
 						</Card.Body>
 					</Card>
+
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Magic 8 Ball</Card.Title>
+						<Card.Img variant="top" src="/imgs/8ball.png" alt="react card dealer application screenshot" />
+						<Card.Body>
+							<Card.Text>
+								Classic Magic 8 Ball created using React. Allows users to ask a question in the input,
+								trigger a shake animation by shaking the ball, and fades in one of the original 20
+								answers. {' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://askthemagic8ball.com" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</CardDeck>
+
+				<CardDeck>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
+						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
+						<Card.Body>
+							<Card.Text>
+								React application using Axios that pulls dad jokes from an external API and displays
+								them for users. Users can up- or downvote jokes, changing their vote count and altering
+								the visual display. {' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://react-dadjokes.netlify.app" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
 						<Card.Img
@@ -122,59 +180,7 @@ const ProjectPage = () => {
 							</div>
 						</Card.Body>
 					</Card>
-				</CardDeck>
-				<CardDeck>
-					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
-						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
-						<Card.Body>
-							<Card.Text>
-								React application using Axios that pulls dad jokes from an external API and displays
-								them for users. Users can up- or downvote jokes, changing their vote count and altering
-								the visual display. {' '}
-							</Card.Text>
-							<div
-								className="d-flex justify-content-around"
-								aria-label="button links to live project and code repo"
-							>
-								<Link href="https://react-dadjokes.netlify.app" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Live</Button>
-									</a>
-								</Link>
-								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Repo</Button>
-									</a>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Card Dealer</Card.Title>
-						<Card.Img variant="top" src="/imgs/dealer.png" alt="react card dealer application screenshot" />
-						<Card.Body>
-							<Card.Text>
-								React application using Axios with an external card API to create a shuffled deck when
-								the component mounts, draw cards, and display pulled cards on screen.{' '}
-							</Card.Text>
-							<div
-								className="d-flex justify-content-around"
-								aria-label="button links to live project and code repo"
-							>
-								<Link href="react-card-dealer.netlify.app" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Live</Button>
-									</a>
-								</Link>
-								<Link href="https://github.com/Brian-Holland/React_Card_Dealer" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Repo</Button>
-									</a>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
+
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Mobile Detailer Website</Card.Title>
 						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />

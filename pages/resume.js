@@ -90,19 +90,19 @@ const ResumePage = () => {
 						</li>
 						<li>
 							<strong>
-								<em>Twitter Post Bot</em>
+								<em>Magic 8 Ball</em>
 							</strong>{' '}
-							: JavaScript bot utilizing Cheerio to access the Twitter Developer API and pull a
-							pre-written post from a Google Sheets document to post daily using Google Cloud Platform’s
-							Cloud Scheduler.<br />
+							: Classic Magic 8-Ball created using React. Users can ask a question and/or shake the ball
+							to trigger a shaking animation and a slow fade in of one of the original 20 predictions
+							inside the ball. <br />
 							<strong>Deployment</strong>:
-							<Link href="https://twitter.com/Dev_Quote_Bot" passHref>
-								<a target="_blank"> https://twitter.com/Dev_Quote_Bot</a>
+							<Link href="https://www.askthemagic8ball.com" passHref>
+								<a target="_blank"> https://www.askthemagic8ball.com</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
-							<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/Twitter_Post_Bot</a>
+							<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
+								<a target="_blank"> https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks</a>
 							</Link>
 							<br />
 						</li>
