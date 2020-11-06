@@ -83,7 +83,7 @@ const ContactPage = () => {
 								required
 								as="textarea"
 								rows="4"
-								placeholder="Write you message here"
+								placeholder="Write your message here"
 								name="message"
 							/>
 						</Form.Group>
