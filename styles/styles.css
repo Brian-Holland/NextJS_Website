@@ -28,6 +28,11 @@ a:hover {
 	font-size: 1.3rem;
 }
 
+.fs-img {
+	margin-top: 5rem;
+	height: auto;
+}
+
 .right-wall {
 	border-right: 3px solid #2a9fd6;
 	padding-top: 0.4rem;
