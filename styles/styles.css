@@ -30,7 +30,8 @@ a:hover {
 
 .fs-img {
 	margin-top: 5rem;
-	height: auto;
+	height: 90%;
+	width: 90%;
 }
 
 .right-wall {
