@@ -29,9 +29,8 @@ a:hover {
 }
 
 .fs-img {
-	margin-top: 5rem;
-	height: 80%;
-	width: 80%;
+	margin-top: 3.5rem;
+	width: 58%;
 }
 
 .right-wall {
@@ -233,5 +232,9 @@ section.space {
 	#resume-print {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.fs-img {
+		width: 90%;
 	}
 }
