@@ -53,19 +53,19 @@ const ResumePage = () => {
 					<ul className="resume-ul">
 						<li>
 							<strong>
-								<em>Contact Keeper</em>
+								<em>AppTracker</em>
 							</strong>{' '}
-							: Full-stack application using React, Node, Express, and MongoDB to allow users to create an
-							account, validate and authenticate logins, and store and search custom created contacts
-							using full CRUD commands.<br />
+							: Full-stack application using React, Node, Express, and MongoDB allowing users to create
+							and login to an account to save all their job application information using full CRUD
+							commands and a RESTful API. <br />
 							<strong>Deployment</strong>:
-							<Link href="https://contactkeeper-react-app.herokuapp.com/" passHref>
-								<a target="_blank"> https://contactkeeper-react-app.herokuapp.com/</a>
+							<Link href="https://apptracker-app.herokuapp.com/" passHref>
+								<a target="_blank"> https://apptracker-app.herokuapp.com/</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
-							<Link href="https://github.com/Brian-Holland/Contact-Keeper" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/Contact-Keeper</a>
+							<Link href="https://github.com/Brian-Holland/AppTracker" passHref>
+								<a target="_blank"> https://github.com/Brian-Holland/AppTracker</a>
 							</Link>
 							<br />
 							<br />
@@ -92,7 +92,7 @@ const ResumePage = () => {
 							<strong>
 								<em>Magic 8 Ball</em>
 							</strong>{' '}
-							: Classic Magic 8-Ball created using React. Users can ask a question and/or shake the ball
+							: Classic Magic 8 Ball created using React. Users can ask a question and/or shake the ball
 							to trigger a shaking animation and a slow fade in of one of the original 20 predictions
 							inside the ball. <br />
 							<strong>Deployment</strong>:
@@ -110,9 +110,9 @@ const ResumePage = () => {
 					<br />
 					<h3 className="h5">Skills</h3>
 					<ul className="resume-ul skill-ul">
-						<li>JavaScript</li>
+						<li>JavaScript / AJAX</li>
 						<li>React</li>
-						<li>AJAX</li>
+						<li>NextJS</li>
 						<li>HTML</li>
 						<li>CSS & SASS</li>
 						<li>Express</li>

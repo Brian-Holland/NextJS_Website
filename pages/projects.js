@@ -35,24 +35,24 @@ const ProjectPage = () => {
 
 				<CardDeck>
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Contact Keeper</Card.Title>
-						<Card.Img variant="top" src="imgs/contact.png" alt="contact keeper application screenshot" />
+						<Card.Title className="text-center pt-2">AppTracker</Card.Title>
+						<Card.Img variant="top" src="imgs/apptracker.png" alt="apptracker application screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Full stack MERN app allowing users to create accounts and login using validation and
-								authentication, store contacts using full CRUD commands, search for contacts, and a
-								utilizes a full REST API.
+								Full-stack application using React, Node, Express, and MongoDB allowing users to create
+								and login to an account to save all their job application information using full CRUD
+								commands and a RESTful API.
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://contactkeeper-react-app.herokuapp.com/" passHref>
+								<Link href="https://apptracker-app.herokuapp.com/" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/Contact-Keeper" passHref>
+								<Link href="https://github.com/Brian-Holland/AppTracker" passHref>
 									<a target="_blank">
 										<Button className variant="outline-primary">
 											Repo
@@ -124,33 +124,6 @@ const ProjectPage = () => {
 
 				<CardDeck>
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
-						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
-						<Card.Body>
-							<Card.Text>
-								React application using Axios that pulls dad jokes from an external API and displays
-								them for users. Users can up- or downvote jokes, changing their vote count and altering
-								the visual display. {' '}
-							</Card.Text>
-							<div
-								className="d-flex justify-content-around"
-								aria-label="button links to live project and code repo"
-							>
-								<Link href="https://react-dadjokes.netlify.app" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Live</Button>
-									</a>
-								</Link>
-								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Repo</Button>
-									</a>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-
-					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
 						<Card.Img
 							src="/imgs/twitterbot.png"
@@ -180,7 +153,6 @@ const ProjectPage = () => {
 							</div>
 						</Card.Body>
 					</Card>
-
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Mobile Detailer Website</Card.Title>
 						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />
@@ -200,6 +172,32 @@ const ProjectPage = () => {
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/waxandshine_websiter" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
+						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
+						<Card.Body>
+							<Card.Text>
+								React application using Axios that pulls dad jokes from an external API and displays
+								them for users. Users can up- or downvote jokes, changing their vote count and altering
+								the visual display. {' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://react-dadjokes.netlify.app" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
