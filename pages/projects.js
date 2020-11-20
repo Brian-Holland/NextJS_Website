@@ -6,7 +6,7 @@ const ProjectPage = () => {
 	return (
 		<div>
 			<Head>
-				<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="description"
@@ -21,6 +21,28 @@ const ProjectPage = () => {
 				<meta property="og:url" content="https://www.brian-holland.com" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:image:alt" content="View of website homepage" />
+
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://www.brian-holland.com" />
+				<meta property="og:title" content="Brian Holland | Software Engineer" />
+				<meta
+					property="og:description"
+					content="Brian Holland's software engineering portfolio website including a resume, projects, contact info, and custom 404 error page."
+				/>
+				<meta property="og:image" content="https://www.brian-holland.com/screenshot.png" />
+
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="https://www.brian-holland.com" />
+				<meta property="twitter:title" content="Brian Holland | Software Engineer" />
+				<meta
+					property="twitter:description"
+					content="Brian Holland's software engineering portfolio website including a resume, projects, contact info, and custom 404 error page."
+				/>
+				<meta property="twitter:image" content="https://www.brian-holland.com/screenshot.png" />
+				<meta
+					property="twitter:image:alt"
+					content="https://www.brian-holland.com/screenshot.Screenshot of website homepage"
+				/>
 				<title>Brian Holland | Software Engineer</title>
 			</Head>
 			<Container>
