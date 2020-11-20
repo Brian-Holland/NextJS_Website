@@ -30,10 +30,7 @@ const ContactPage = () => {
 					content="Brian Holland's software engineering portfolio website including a resume, projects, contact info, and custom 404 error page."
 				/>
 				<meta property="twitter:image" content="https://www.brian-holland.com/screenshot.png" />
-				<meta
-					property="twitter:image:alt"
-					content="https://www.brian-holland.com/screenshot.Screenshot of website homepage"
-				/>
+				<meta property="twitter:image:alt" content="Screenshot of website homepage" />
 				<title>Brian Holland | Software Engineer</title>
 			</Head>
 			<section className="py-5 mt-5">
