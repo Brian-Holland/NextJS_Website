@@ -13,7 +13,7 @@ const ArbysPage = () => {
 					property="twitter:description"
 					content="Brian Holland's software engineering portfolio website including a resume, projects, contact info, and custom 404 error page."
 				/>
-				<meta property="twitter:image" content="https://www.brian-holland.com/2for5.png" />
+				<meta property="twitter:image" content="https://www.brian-holland.com/2for5.jpg" />
 				<meta property="twitter:image:alt" content="Arby's" />
 			</Head>
 			<Container className="text-center" fluid>
