@@ -13,15 +13,6 @@ const HomePage = () => {
 					name="description"
 					content="Software engineer portfolio website for Brian Holland of the San Francisco Bay Area including a resume, project listing, contact information, and more."
 				/>
-				<meta property="og:title" content="Brian Holland | Software Engineer" />
-				<meta
-					property="og:description"
-					content="Brian Holland's software engineering portfolio website including a resume, projects, contact info, and custom 404 error page"
-				/>
-				<meta property="og:image" content="screenshot.png" />
-				<meta property="og:url" content="https://www.brian-holland.com" />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:image:alt" content="View of website homepage" />
 
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://www.brian-holland.com" />
