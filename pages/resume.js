@@ -88,18 +88,19 @@ const ResumePage = () => {
 						</li>
 						<li>
 							<strong>
-								<em>GitHub Finder</em>
+								<em>Personal Portfolio</em>
 							</strong>{' '}
-							: Responsive React application utilizing the GitHub API to search for GitHub user
-							information and displays the API response in a custom profile component.<br />
+							: Portfolio website created using NextJS, React, and React Bootstrap to display my personal
+							portfolio of projects, as well a resume, about me section, social links, contact form, and a
+							custom dynamic 404 error page.<br />
 							<strong>Deployment</strong>:
-							<Link href="https://github-find-app.netlify.app" passHref>
-								<a target="_blank"> https://github-find-app.netlify.app</a>
+							<Link href="https://www.brian-holland.com/ " passHref>
+								<a target="_blank"> https://www.brian-holland.com/ </a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
-							<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/GitHub-Finder</a>
+							<Link href="https://github.com/Brian-Holland/NextJS_Website" passHref>
+								<a target="_blank"> https://github.com/Brian-Holland/NextJS_Website</a>
 							</Link>
 							<br />
 							<br />
