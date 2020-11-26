@@ -78,30 +78,25 @@ const ProjectPage = () => {
 							</div>
 						</Card.Body>
 					</Card>
-
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
-						<Card.Img
-							variant="top"
-							src="/imgs/githubfinder.png"
-							alt="github finder application screenshot"
-						/>
+						<Card.Title className="text-center pt-2">Portfolio Website</Card.Title>
+						<Card.Img variant="top" src="/imgs/personalweb.png" alt="portfolio website screenshot" />
 						<Card.Body>
 							<Card.Text>
-								React application allowing users to search for GitHub profiles by fetching info from the
-								GitHub API, presents the search results in a custom way, and displays a custom version
-								of a users' information.{' '}
+								My personal portfolio website that you are currently viewing was built with NextJS,
+								React, and React Bootstrap. It also ontains a dynamic custom 404 error page as well for
+								those familiar with Among Us. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://github-find-app.netlify.app" passHref>
+								<Link href="https://www.brian-holland.com" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
+								<Link href="https://github.com/Brian-Holland/NextJS_Website" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
@@ -140,36 +135,6 @@ const ProjectPage = () => {
 
 				<CardDeck>
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
-						<Card.Img
-							src="/imgs/twitterbot.png"
-							variant="bottom"
-							alt="twitter bot application screenshot"
-						/>
-						<Card.Body>
-							<Card.Text>
-								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes
-								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot alerts use
-								when tweet database is empty.
-							</Card.Text>
-							<div
-								className="d-flex justify-content-around"
-								aria-label="button links to live project and code repo"
-							>
-								<Link href="https://twitter.com/dev_quote_bot" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Live</Button>
-									</a>
-								</Link>
-								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Repo</Button>
-									</a>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Mobile Detailer Website</Card.Title>
 						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />
 						<Card.Body>
@@ -196,24 +161,58 @@ const ProjectPage = () => {
 						</Card.Body>
 					</Card>
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Dad Jokes</Card.Title>
-						<Card.Img variant="top" src="/imgs/dadjokes.jpg" alt="dad jokes application screenshot" />
+						<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
+						<Card.Img
+							variant="top"
+							src="/imgs/githubfinder.png"
+							alt="github finder application screenshot"
+						/>
 						<Card.Body>
 							<Card.Text>
-								React application using Axios that pulls dad jokes from an external API and displays
-								them for users. Users can up- or downvote jokes, changing their vote count and altering
-								the visual display. {' '}
+								React application allowing users to search for GitHub profiles by fetching info from the
+								GitHub API, presents the search results in a custom way, and displays a custom version
+								of a users' information.{' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://react-dadjokes.netlify.app" passHref>
+								<Link href="https://github-find-app.netlify.app" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/React_Dad_Jokes" passHref>
+								<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
+						<Card.Img
+							src="/imgs/twitterbot.png"
+							variant="bottom"
+							alt="twitter bot application screenshot"
+						/>
+						<Card.Body>
+							<Card.Text>
+								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes
+								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot alerts use
+								when tweet database is empty.
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://twitter.com/dev_quote_bot" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>

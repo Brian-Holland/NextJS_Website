@@ -28,17 +28,17 @@ const NavBar = () => {
 							<div id="socials" className="d-flex mx-sm-5">
 								<Link href="https://www.linkedin.com/in/brian-holland-software-developer/" passHref>
 									<Nav.Link target="_blank" className="px-sm-3">
-										<i class="fab fa-linkedin fa-2x" />
+										<i className="fab fa-linkedin fa-2x" />
 									</Nav.Link>
 								</Link>
 								<Link href="https://twitter.com/BrianHollandDev" passHref>
 									<Nav.Link target="_blank" className="px-sm-3 mx-2">
-										<i class="fab fa-twitter-square fa-2x" />
+										<i className="fab fa-twitter-square fa-2x" />
 									</Nav.Link>
 								</Link>
 								<Link href="https://github.com/Brian-Holland" passHref>
 									<Nav.Link target="_blank" className="px-sm-3">
-										<i class="fab fa-github-square  fa-2x" />
+										<i className="fab fa-github-square  fa-2x" />
 									</Nav.Link>
 								</Link>
 							</div>
