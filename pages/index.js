@@ -37,7 +37,7 @@ const HomePage = () => {
 			<section id="main-land">
 				<Container className="mt-5">
 					<Row>
-						<Col className="d-flex-column" style={{ paddingTop: '12%', paddingLeft: '15%' }}>
+						<Col xs={12} md={8} className="d-flex-column" style={{ paddingTop: '15%', paddingLeft: '9%' }}>
 							<h1 id="typed" className="h2">
 								Hello, <br />
 								I'm <span className="text-em">B</span>rian, the
@@ -56,6 +56,13 @@ const HomePage = () => {
 									<Button variant="outline-primary">Projects</Button>
 								</a>
 							</Link>
+						</Col>
+						<Col xs={false} md={4}>
+							<img
+								src="imgs/binary.svg"
+								className="filter-white mobile-none"
+								alt="globe made out of binary numbers"
+							/>
 						</Col>
 					</Row>
 				</Container>
