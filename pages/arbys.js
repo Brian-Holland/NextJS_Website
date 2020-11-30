@@ -6,6 +6,13 @@ const ArbysPage = () => {
 	return (
 		<div>
 			<Head>
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta
+					name="description"
+					content="Software engineer portfolio website for Brian Holland of the San Francisco Bay Area including a resume, project listing, contact information, and more."
+				/>
+
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://www.brian-holland.com" />
 				<meta property="twitter:title" content="Brian Holland | Software Engineer" />
@@ -15,6 +22,8 @@ const ArbysPage = () => {
 				/>
 				<meta property="twitter:image" content="https://www.brian-holland.com/imgs/arbythumb.png" />
 				<meta property="twitter:image:alt" content="Arby's" />
+
+				<title>Brian Holland | Software Engineer</title>
 			</Head>
 			<Container className="text-center" fluid>
 				<img className="fs-img" src="/imgs/2for5.jpg" alt="arbys menu" />
