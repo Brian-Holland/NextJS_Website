@@ -127,15 +127,15 @@ const ResumePage = () => {
 					<br />
 					<h3 className="h5">Skills</h3>
 					<ul className="resume-ul skill-ul">
-						<li>JavaScript / AJAX</li>
-						<li>React</li>
-						<li>NextJS</li>
-						<li>HTML</li>
-						<li>CSS & SASS</li>
-						<li>Express</li>
+						<li>JavaScript</li>
+						<li>React/Redux</li>
 						<li>Node</li>
 						<li>MongoDB</li>
-						<li>Git/Github</li>
+						<li>HTML</li>
+						<li>CSS & SASS</li>
+						<li>Python</li>
+						<li>MySQL</li>
+						<li>Git</li>
 						<li>Documentation</li>
 						<li>Deployment</li>
 						<li>Accessibility</li>
