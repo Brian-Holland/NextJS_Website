@@ -83,9 +83,9 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/personalweb.png" alt="portfolio website screenshot" />
 						<Card.Body>
 							<Card.Text>
-								My personal portfolio website that you are currently viewing was built with NextJS,
-								React, and React Bootstrap. It also ontains a dynamic custom 404 error page as well for
-								those familiar with Among Us. {' '}
+								Personal portfolio website built with NextJS, React, and React Bootstrap. Containers
+								custom dynamic 404 error page as well as a contact form integrated with Netlify which it
+								is deployed on. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
@@ -110,9 +110,9 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/8ball.png" alt="react card dealer application screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Classic Magic 8 Ball created using React. Allows users to ask a question in the input,
-								trigger a shake animation by shaking the ball, and fades in one of the original 20
-								answers. {' '}
+								Classic Magic 8 Ball created using React and CSS animations. Allows users to ask a
+								question in the input, trigger a shake animation by shaking the ball, and fades in one
+								of the original 20 answers. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
@@ -200,7 +200,7 @@ const ProjectPage = () => {
 						<Card.Body>
 							<Card.Text>
 								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes
-								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot alerts use
+								the Google Cloud Platform's Cloud Functions to schedule daily tweets. Bot alerts user
 								when tweet database is empty.
 							</Card.Text>
 							<div
