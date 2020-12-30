@@ -159,8 +159,7 @@ const ResumePage = () => {
 					</ul>
 					<p>
 						Managed a team of 30+ employees, responsible for day-to-day operations including customer
-						service, staff training, promotion recommendations, nightly grosses, inventory control, and
-						general theater operations.
+						service, staff training, nightly grosses, inventory control, and general theater operations.
 					</p>
 					<br />
 					<h3 className="h5">Education</h3>
