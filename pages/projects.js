@@ -55,9 +55,10 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="imgs/apptracker.png" alt="apptracker application screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Full-stack application using React, Node, Express, and MongoDB allowing users to create
-								and login to an account to save all their job application information using full CRUD
-								commands and a RESTful API.
+								Full stack application allowing users to keep track of job applications. React Context
+								API used for state management. RESTful API using Node, Express, and MongoDB for CRUD
+								operations. Custom middleware and JSON Web Tokens for authentication as well as
+								passwords hashed for encryption.
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
@@ -83,9 +84,10 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/personalweb.png" alt="portfolio website screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Personal portfolio website built with NextJS, React, and React Bootstrap. Containers
-								custom dynamic 404 error page as well as a contact form integrated with Netlify which it
-								is deployed on. {' '}
+								Personal portfolio website built with NextJS, React, and React Bootstrap. Bootswatch
+								also used for additional styling. Contains a custom dynamic 404 error page, which uses
+								the path name to display the dynamic message. Also contains a contact form integrated
+								with Netlify. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
@@ -107,12 +109,13 @@ const ProjectPage = () => {
 
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Magic 8 Ball</Card.Title>
-						<Card.Img variant="top" src="/imgs/8ball.png" alt="react card dealer application screenshot" />
+						<Card.Img variant="top" src="/imgs/8ball.png" alt="magic 8 ball app screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Classic Magic 8 Ball created using React and CSS animations. Allows users to ask a
-								question in the input, trigger a shake animation by shaking the ball, and fades in one
-								of the original 20 answers. {' '}
+								Classic Magic 8 Ball created by using React to handle state management and CSS
+								animations triggered by state-based logic. Allows users to ask a question in the input,
+								trigger a shaking animation by "shaking" the ball, and fades in one of the original 20
+								answers. Deployed on Netlify. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
