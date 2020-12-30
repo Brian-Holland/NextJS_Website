@@ -71,9 +71,11 @@ const ResumePage = () => {
 							<strong>
 								<em>AppTracker</em>
 							</strong>{' '}
-							: Full-stack application using React, Node, Express, and MongoDB allowing users to create
-							and login to an account to save all their job application information using full CRUD
-							commands and a RESTful API. <br />
+							: Full stack application allowing users to keep track of job applications. React Context API
+							used for state management. Backend built with a RESTful API using Node, Express, and MongoDB
+							for CRUD operations and custom middleware for authentication on protected routes. JSON Web
+							Tokens used for authentication. Custom MongoDB user and application schema. Passwords hashed
+							for encryption. <br />
 							<strong>Deployment</strong>:
 							<Link href="https://apptracker-app.herokuapp.com/" passHref>
 								<a target="_blank"> https://apptracker-app.herokuapp.com/</a>
@@ -82,25 +84,6 @@ const ResumePage = () => {
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/AppTracker" passHref>
 								<a target="_blank"> https://github.com/Brian-Holland/AppTracker</a>
-							</Link>
-							<br />
-							<br />
-						</li>
-						<li>
-							<strong>
-								<em>Personal Portfolio</em>
-							</strong>{' '}
-							: Portfolio website created using NextJS, React, and React Bootstrap to display my personal
-							portfolio of projects, as well a resume, about me section, social links, contact form, and a
-							custom dynamic 404 error page.<br />
-							<strong>Deployment</strong>:
-							<Link href="https://www.brian-holland.com/ " passHref>
-								<a target="_blank"> https://www.brian-holland.com/ </a>
-							</Link>
-							<br />
-							<strong>Repo</strong>:
-							<Link href="https://github.com/Brian-Holland/NextJS_Website" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/NextJS_Website</a>
 							</Link>
 							<br />
 							<br />
