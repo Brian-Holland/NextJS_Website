@@ -44,8 +44,8 @@ const AboutPage = () => {
 							<p>
 								My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 								taught myself full stack engineering from the fundamentals to building full stack
-								applications. I love creating applications just as much as I enjoy the challenge of
-								solving problems.
+								applications while battling my way back from disability. I love creating applications
+								just as much as I enjoy the challenge of solving problems.
 							</p>
 							<p>
 								My primary focus has been on JavaScript solutions on both the frontend and backend. Most

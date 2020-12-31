@@ -112,10 +112,10 @@ const ProjectPage = () => {
 						<Card.Img variant="top" src="/imgs/8ball.png" alt="magic 8 ball app screenshot" />
 						<Card.Body>
 							<Card.Text>
-								Classic Magic 8 Ball created by using React to handle state management and CSS
-								animations triggered by state-based logic. Allows users to ask a question in the input,
-								trigger a shaking animation by "shaking" the ball, and fades in one of the original 20
-								answers. Deployed on Netlify. {' '}
+								Classic Magic 8 Ball recreated by using React to handle state management and CSS
+								animations that are triggered by state-based logic. Allows users to ask a question in
+								the input, trigger a shaking animation by "shaking" the ball, and fades in one of the
+								original 20 answers. Deployed on Netlify. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
