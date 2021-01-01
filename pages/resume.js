@@ -90,19 +90,19 @@ const ResumePage = () => {
 						</li>
 						<li>
 							<strong>
-								<em>Magic 8 Ball</em>
+								<em>IT Log Back End</em>
 							</strong>{' '}
-							: Classic Magic 8 Ball created using React. Users can ask a question and/or shake the ball
-							to trigger a shaking animation and a slow fade in of one of the original 20 predictions
-							inside the ball. <br />
-							<strong>Deployment</strong>:
-							<Link href="https://www.askthemagic8ball.com" passHref>
-								<a target="_blank"> https://www.askthemagic8ball.com</a>
+							: RESTful API built to allow a user full CRUD operations over IT logs and technicians. Built
+							using Node, Express, and MongoDB/Mongoose. Custom database model schemas. Custom server
+							scripts. Tested and published with Postman API documentation. <br />
+							<strong>API Docs</strong>:
+							<Link href="https://documenter.getpostman.com/view/9550527/TVt2bPDe" passHref>
+								<a target="_blank"> https://documenter.getpostman.com/view/9550527/TVt2bPDe</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
-							<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks</a>
+							<Link href="https://github.com/Brian-Holland/it_logger_backend" passHref>
+								<a target="_blank"> https://github.com/Brian-Holland/it_logger_backend</a>
 							</Link>
 							<br />
 						</li>
