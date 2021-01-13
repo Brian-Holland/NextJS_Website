@@ -90,14 +90,15 @@ const ResumePage = () => {
 						</li>
 						<li>
 							<strong>
-								<em>IT Log Back End</em>
+								<em>IT Log MERN App</em>
 							</strong>{' '}
 							: RESTful API built to allow a user full CRUD operations over IT logs and technicians. Built
-							using Node, Express, and MongoDB/Mongoose. Custom database model schemas. Custom server
-							scripts. Tested and published with Postman API documentation. <br />
-							<strong>API Docs</strong>:
-							<Link href="https://documenter.getpostman.com/view/9550527/TVt2bPDe" passHref>
-								<a target="_blank"> https://documenter.getpostman.com/view/9550527/TVt2bPDe</a>
+							using Node, Express, and MongoDB and connected to a React/Redux front end. Custom database
+							model schemas. Tested and published with Postman API documentation. Also allows search
+							queries on IT logs. <br />
+							<strong>Deployment</strong>:
+							<Link href="https://it-log-mern-app.herokuapp.com/" passHref>
+								<a target="_blank"> https://it-log-mern-app.herokuapp.com/</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
@@ -118,9 +119,9 @@ const ResumePage = () => {
 						<li>CSS & SASS</li>
 						<li>Python</li>
 						<li>MySQL</li>
+						<li>Express</li>
 						<li>Git</li>
 						<li>Documentation</li>
-						<li>Deployment</li>
 						<li>Accessibility</li>
 					</ul>
 					<br />

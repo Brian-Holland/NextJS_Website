@@ -80,6 +80,34 @@ const ProjectPage = () => {
 						</Card.Body>
 					</Card>
 					<Card className="mb-4">
+						<Card.Title className="text-center pt-2">IT Log MERN App</Card.Title>
+						<Card.Img variant="top" src="/imgs/it-log-mern.png" alt="it log app screenshot" />
+						<Card.Body>
+							<Card.Text>
+								RESTful API built to allow a user full CRUD operations over IT logs and technicians.
+								Built using Node, Express, and MongoDB and connected to a React/Redux front end. Custom
+								database model schemas. Tested and published with Postman API documentation. Also allows
+								search queries on IT logs. Deployed on Heroku. {' '}
+							</Card.Text>
+							<div
+								className="d-flex justify-content-around"
+								aria-label="button links to live project and code repo"
+							>
+								<Link href="https://it-log-mern-app.herokuapp.com/ " passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Live</Button>
+									</a>
+								</Link>
+								<Link href="https://github.com/Brian-Holland/it_logger_backend" passHref>
+									<a target="_blank">
+										<Button variant="outline-primary">Repo</Button>
+									</a>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+
+					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Portfolio Website</Card.Title>
 						<Card.Img variant="top" src="/imgs/personalweb.png" alt="portfolio website screenshot" />
 						<Card.Body>
@@ -99,34 +127,6 @@ const ProjectPage = () => {
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/NextJS_Website" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Repo</Button>
-									</a>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-
-					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">Magic 8 Ball</Card.Title>
-						<Card.Img variant="top" src="/imgs/8ball.png" alt="magic 8 ball app screenshot" />
-						<Card.Body>
-							<Card.Text>
-								Classic Magic 8 Ball recreated by using React to handle state management and CSS
-								animations that are triggered by state-based logic. Allows users to ask a question in
-								the input, trigger a shaking animation by "shaking" the ball, and fades in one of the
-								original 20 answers. Deployed on Netlify. {' '}
-							</Card.Text>
-							<div
-								className="d-flex justify-content-around"
-								aria-label="button links to live project and code repo"
-							>
-								<Link href="https://askthemagic8ball.com" passHref>
-									<a target="_blank">
-										<Button variant="outline-primary">Live</Button>
-									</a>
-								</Link>
-								<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
@@ -164,28 +164,25 @@ const ProjectPage = () => {
 						</Card.Body>
 					</Card>
 					<Card className="mb-4">
-						<Card.Title className="text-center pt-2">GitHub Finder</Card.Title>
-						<Card.Img
-							variant="top"
-							src="/imgs/githubfinder.png"
-							alt="github finder application screenshot"
-						/>
+						<Card.Title className="text-center pt-2">Magic 8 Ball</Card.Title>
+						<Card.Img variant="top" src="/imgs/8ball.png" alt="magic 8 ball app screenshot" />
 						<Card.Body>
 							<Card.Text>
-								React application allowing users to search for GitHub profiles by fetching info from the
-								GitHub API, presents the search results in a custom way, and displays a custom version
-								of a users' information.{' '}
+								Classic Magic 8 Ball recreated by using React to handle state management and CSS
+								animations that are triggered by state-based logic. Allows users to ask a question in
+								the input, trigger a shaking animation by "shaking" the ball, and fades in one of the
+								original 20 answers. Deployed on Netlify. {' '}
 							</Card.Text>
 							<div
 								className="d-flex justify-content-around"
 								aria-label="button links to live project and code repo"
 							>
-								<Link href="https://github-find-app.netlify.app" passHref>
+								<Link href="https://askthemagic8ball.com" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
-								<Link href="https://github.com/Brian-Holland/GitHub-Finder" passHref>
+								<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
 									<a target="_blank">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
