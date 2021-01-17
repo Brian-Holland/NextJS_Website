@@ -38,7 +38,7 @@ const AboutPage = () => {
 					<h1 className="text-center h2">About Me</h1>
 					<div className="bottom-line" />
 					<div className="about-info my-5">
-						<img className="bio-image rounded" src="/imgs/profile.jpg" alt="profile picture" />
+						<img className="bio-image rounded" src="profile.jpg" alt="profile picture" />
 						<div className="bio">
 							<h2 className="text-center mb-3 h5">A Quick Background</h2>
 							<p>

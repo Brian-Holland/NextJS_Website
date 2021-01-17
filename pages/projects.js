@@ -52,7 +52,7 @@ const ProjectPage = () => {
 				<CardDeck>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">AppTracker</Card.Title>
-						<Card.Img variant="top" src="imgs/apptracker.png" alt="apptracker application screenshot" />
+						<Card.Img variant="top" src="apptracker.png" alt="apptracker application screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Full stack application allowing users to keep track of job applications. React Context
@@ -81,7 +81,7 @@ const ProjectPage = () => {
 					</Card>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">IT Log MERN App</Card.Title>
-						<Card.Img variant="top" src="/imgs/it-log-mern.png" alt="it log app screenshot" />
+						<Card.Img variant="top" src="it-log-mern.png" alt="it log app screenshot" />
 						<Card.Body>
 							<Card.Text>
 								RESTful API built to allow a user full CRUD operations over IT logs and technicians.
@@ -109,7 +109,7 @@ const ProjectPage = () => {
 
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Portfolio Website</Card.Title>
-						<Card.Img variant="top" src="/imgs/personalweb.png" alt="portfolio website screenshot" />
+						<Card.Img variant="top" src="personalweb.png" alt="portfolio website screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Personal portfolio website built with NextJS, React, and React Bootstrap. Bootswatch
@@ -139,7 +139,7 @@ const ProjectPage = () => {
 				<CardDeck>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Mobile Detailer Website</Card.Title>
-						<Card.Img variant="top" src="/imgs/wax.jpg" alt="mobile detailing website screenshot" />
+						<Card.Img variant="top" src="wax.jpg" alt="mobile detailing website screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Static website created for a local mobile detailing service. Consulted with client and
@@ -165,7 +165,7 @@ const ProjectPage = () => {
 					</Card>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Magic 8 Ball</Card.Title>
-						<Card.Img variant="top" src="/imgs/8ball.png" alt="magic 8 ball app screenshot" />
+						<Card.Img variant="top" src="8ball.png" alt="magic 8 ball app screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Classic Magic 8 Ball recreated by using React to handle state management and CSS
@@ -192,11 +192,7 @@ const ProjectPage = () => {
 					</Card>
 					<Card className="mb-4">
 						<Card.Title className="text-center pt-2">Twitter Post Bot</Card.Title>
-						<Card.Img
-							src="/imgs/twitterbot.png"
-							variant="bottom"
-							alt="twitter bot application screenshot"
-						/>
+						<Card.Img src="twitterbot.png" variant="bottom" alt="twitter bot application screenshot" />
 						<Card.Body>
 							<Card.Text>
 								Daily Twitter posting bot app created with JavaScript and Google Sheets that utilizes

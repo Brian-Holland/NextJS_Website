@@ -26,7 +26,7 @@ const ArbysPage = () => {
 				<title>Brian Holland | Software Engineer</title>
 			</Head>
 			<Container className="text-center" fluid>
-				<img className="fs-img" src="/imgs/2for5.jpg" alt="arbys menu" />
+				<img className="fs-img" src="2for5.jpg" alt="arbys menu" />
 			</Container>
 		</div>
 	);

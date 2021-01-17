@@ -59,7 +59,7 @@ const HomePage = () => {
 						</Col>
 						<Col xs={false} md={4}>
 							<img
-								src="imgs/binary.svg"
+								src="binary.svg"
 								className="filter-white mobile-none"
 								alt="globe made out of binary numbers"
 							/>
