@@ -105,11 +105,6 @@ section.space {
 	z-index: 999;
 }
 
-/* .space {
-	background-image: url("/imgs/space.jpg");
-	background-size: contain;
-} */
-
 .move {
 	top: 80%;
 	position: absolute;
