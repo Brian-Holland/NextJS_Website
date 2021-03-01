@@ -57,13 +57,6 @@ const HomePage = () => {
 								</a>
 							</Link>
 						</Col>
-						<Col xs={false} md={4}>
-							<img
-								src="binary.svg"
-								className="filter-white mobile-none"
-								alt="globe made out of binary numbers"
-							/>
-						</Col>
 					</Row>
 				</Container>
 			</section>
