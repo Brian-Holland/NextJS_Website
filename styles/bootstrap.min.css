@@ -23,10 +23,10 @@
 	--teal: #20c997;
 	--cyan: #93c;
 	--white: #fff;
-	--gray: #555;
+	--gray: rgb(160, 160, 160);
 	--gray-dark: #222;
 	--primary: #2a9fd6;
-	--secondary: rgb(100, 100, 100);
+	--secondary: rgb(160, 160, 160);
 	--success: #77b300;
 	--info: #93c;
 	--warning: #f80;
@@ -9256,7 +9256,7 @@ a.text-primary:hover {
 	color: #1d7097 !important;
 }
 .text-secondary {
-	color: #555 !important;
+	color: rgb(160, 160, 160) !important;
 }
 a.text-secondary:focus,
 a.text-secondary:hover {
