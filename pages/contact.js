@@ -58,7 +58,7 @@ const ContactPage = () => {
 						</div>
 						<Row>
 							<Col md={4}>
-								<Form.Group>
+								<Form.Group controlId="formGroupName">
 									<Form.Label>Name</Form.Label>
 									<Form.Control
 										required
@@ -70,7 +70,7 @@ const ContactPage = () => {
 								</Form.Group>
 							</Col>
 							<Col md={4}>
-								<Form.Group>
+								<Form.Group controlId="formGroupEmail">
 									<Form.Label>Email</Form.Label>
 									<Form.Control
 										required
@@ -82,7 +82,7 @@ const ContactPage = () => {
 								</Form.Group>
 							</Col>
 							<Col md={4}>
-								<Form.Group>
+								<Form.Group controlId="formGroupPhone">
 									<Form.Label>Phone Number (Optional)</Form.Label>
 									<Form.Control
 										size="lg"
@@ -93,7 +93,7 @@ const ContactPage = () => {
 								</Form.Group>
 							</Col>
 						</Row>
-						<Form.Group>
+						<Form.Group controlId="formGroupMessage">
 							<Form.Label>Message</Form.Label>
 							<Form.Control
 								required
