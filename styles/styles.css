@@ -61,6 +61,7 @@ a:hover {
 #about-bio .bio-image {
 	grid-area: bioimage;
 	width: 100%;
+	height: 100%;
 }
 
 #about-bio .bio {
