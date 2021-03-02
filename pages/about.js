@@ -41,7 +41,7 @@ const AboutPage = () => {
 						<img className="bio-image rounded" src="profile.jpg" alt="profile picture" />
 						<div className="bio">
 							<h2 className="text-center mb-3 h5">A Quick Background</h2>
-							<br />
+
 							<p>
 								My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 								taught myself full stack engineering from the fundamentals to building full stack
