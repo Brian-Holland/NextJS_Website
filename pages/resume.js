@@ -55,12 +55,18 @@ const ResumePage = () => {
 						Email: Brian.Holland.PR@gmail.com<br />
 						Website:
 						<Link href="https://www.brian-holland.com" passHref>
-							<a target="_blank"> https://www.brian-holland.com</a>
+							<a target="_blank" rel="noopener">
+								{' '}
+								https://www.brian-holland.com
+							</a>
 						</Link>
 						<br />
 						Project Portfolio:
 						<Link href="https://github.com/Brian-Holland" passHref>
-							<a target="_blank"> https://github.com/Brian-Holland</a>
+							<a target="_blank" rel="noopener">
+								{' '}
+								https://github.com/Brian-Holland
+							</a>
 						</Link>
 						<br />
 					</p>
@@ -78,12 +84,18 @@ const ResumePage = () => {
 							for encryption. <br />
 							<strong>Deployment</strong>:
 							<Link href="https://apptracker-app.herokuapp.com/" passHref>
-								<a target="_blank"> https://apptracker-app.herokuapp.com/</a>
+								<a target="_blank" rel="noopener">
+									{' '}
+									https://apptracker-app.herokuapp.com/
+								</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/AppTracker" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/AppTracker</a>
+								<a target="_blank" rel="noopener">
+									{' '}
+									https://github.com/Brian-Holland/AppTracker
+								</a>
 							</Link>
 							<br />
 							<br />
@@ -98,12 +110,18 @@ const ResumePage = () => {
 							queries on IT logs. <br />
 							<strong>Deployment</strong>:
 							<Link href="https://it-log-mern-app.herokuapp.com/" passHref>
-								<a target="_blank"> https://it-log-mern-app.herokuapp.com/</a>
+								<a target="_blank" rel="noopener">
+									{' '}
+									https://it-log-mern-app.herokuapp.com/
+								</a>
 							</Link>
 							<br />
 							<strong>Repo</strong>:
 							<Link href="https://github.com/Brian-Holland/it_logger_backend" passHref>
-								<a target="_blank"> https://github.com/Brian-Holland/it_logger_backend</a>
+								<a target="_blank" rel="noopener">
+									{' '}
+									https://github.com/Brian-Holland/it_logger_backend
+								</a>
 							</Link>
 							<br />
 						</li>
