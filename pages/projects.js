@@ -41,9 +41,11 @@ const ProjectPage = () => {
 						Check out a few of my projects below.
 						<br />
 						<br />
-						My full GitHub portfolio can be found{' '}
+						My full portfolio can be found on{' '}
 						<Link href="https://github.com/Brian-Holland" passHref>
-							<a target="_blank">here</a>
+							<a target="_blank" rel="noopener">
+								my GitHub account
+							</a>
 						</Link>
 						.
 					</p>
@@ -65,12 +67,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://apptracker-app.herokuapp.com/" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/AppTracker" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button className variant="outline-primary">
 											Repo
 										</Button>
@@ -94,12 +96,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://it-log-mern-app.herokuapp.com/ " passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/it_logger_backend" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
@@ -122,12 +124,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://www.brian-holland.com" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/NextJS_Website" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
@@ -151,12 +153,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://waxandshine.netlify.app/" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/waxandshine_websiter" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
@@ -178,12 +180,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://askthemagic8ball.com" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/React_Magic_8_Ball_Hooks" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
@@ -204,12 +206,12 @@ const ProjectPage = () => {
 								aria-label="button links to live project and code repo"
 							>
 								<Link href="https://twitter.com/dev_quote_bot" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Live</Button>
 									</a>
 								</Link>
 								<Link href="https://github.com/Brian-Holland/Twitter_Post_Bot" passHref>
-									<a target="_blank">
+									<a target="_blank" rel="noopener">
 										<Button variant="outline-primary">Repo</Button>
 									</a>
 								</Link>
