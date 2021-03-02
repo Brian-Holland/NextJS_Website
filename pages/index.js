@@ -7,7 +7,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<Head>
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="description"
@@ -37,7 +37,7 @@ const HomePage = () => {
 			<section id="main-land">
 				<Container className="mt-5">
 					<Row>
-						<Col xs={12} md={8} className="d-flex-column" style={{ paddingTop: '15%', paddingLeft: '9%' }}>
+						<Col className="d-flex-column" style={{ paddingTop: '15%', paddingLeft: '14%' }}>
 							<h1 id="typed" className="h2">
 								Hello, <br />
 								I'm <span className="text-em">B</span>rian, the

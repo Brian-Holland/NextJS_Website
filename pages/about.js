@@ -5,7 +5,7 @@ const AboutPage = () => {
 	return (
 		<div>
 			<Head>
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta
 					name="description"
@@ -38,10 +38,10 @@ const AboutPage = () => {
 					<h1 className="text-center h2">About Me</h1>
 					<div className="bottom-line" />
 					<div className="about-info my-5">
-						<img className="bio-image rounded" src="profile.jpg" alt="profile picture" />
+						<img className="bio-image rounded" src="profile-resized.jpg" alt="profile picture" />
 						<div className="bio">
 							<h2 className="text-center mb-3 h5">A Quick Background</h2>
-
+							<br />
 							<p>
 								My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 								taught myself full stack engineering from the fundamentals to building full stack
