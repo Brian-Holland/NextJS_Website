@@ -54,7 +54,7 @@ a:hover {
 
 #about-bio .about-info {
 	display: grid;
-	grid-template-areas: "bioimage bio bio";
+	grid-template-areas: "bioimage bio";
 	gap: 1.1rem;
 }
 
@@ -244,12 +244,17 @@ section.space {
 	}
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 	#about-bio .about-info {
 		grid-template-areas: "bioimage" "bio";
 	}
 
+	#about-bio img {
+		display: block;
+	}
+
 	#about-bio .bio {
+		margin-top: 1.2rem;
 		border: none;
 	}
 }
