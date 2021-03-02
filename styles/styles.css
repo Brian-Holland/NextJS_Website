@@ -60,7 +60,6 @@ a:hover {
 
 #about-bio .bio-image {
 	grid-area: bioimage;
-	height: 100%;
 	width: 100%;
 }
 
@@ -256,5 +255,14 @@ section.space {
 	#about-bio .bio {
 		margin-top: 1.2rem;
 		border: none;
+	}
+}
+@media (min-width: 1440px) {
+	#about-bio .about-info {
+		grid-template-areas: "bioimage bio bio";
+	}
+
+	#about-bio img {
+		display: block;
 	}
 }
