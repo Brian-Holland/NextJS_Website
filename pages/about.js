@@ -40,8 +40,8 @@ const AboutPage = () => {
 					<div className="about-info my-5">
 						<img className="bio-image rounded" src="profile-resized.jpg" alt="profile picture" />
 						<div className="bio">
-							<h2 className="text-center my-2 h5">A Quick Background</h2>
-							<br />
+							<h2 className="text-center h5 pb-2">A Quick Background</h2>
+
 							<p>
 								My name is Brian Holland and I am a software engineer in the San Francisco bay area. I
 								taught myself full stack engineering from the fundamentals to building full stack
@@ -52,7 +52,7 @@ const AboutPage = () => {
 								My primary focus has been on JavaScript solutions on both the frontend and backend. Most
 								of my projects have utilized the MERN stack (MongoDB, Express, React, Node) and Python,
 								but I have also been exposed to Java, TypeScript, and MySQL. I am constantly learning
-								and looking forward to working with a team that strives to make an impact.
+								and improving my skills.
 							</p>
 						</div>
 					</div>
