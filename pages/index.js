@@ -40,7 +40,7 @@ const HomePage = () => {
 						<Col className="d-flex-column" style={{ paddingTop: '15%', paddingLeft: '14%' }}>
 							<h1 id="typed" className="h2">
 								Hello, <br />
-								I'm <span className="text-em">B</span>rian, the
+								I'm <span className="text-em">Brian</span>, the
 								<br />
 								<Typewriter
 									options={{
