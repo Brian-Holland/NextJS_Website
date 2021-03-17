@@ -130,17 +130,17 @@ const ResumePage = () => {
 					<h3 className="h5">Skills</h3>
 					<ul className="resume-ul skill-ul">
 						<li>JavaScript</li>
+						<li>TypeScript</li>
+						<li>Python</li>
 						<li>React/Redux</li>
 						<li>Node</li>
 						<li>MongoDB</li>
+						<li>Express</li>
+						<li>MySQL</li>
 						<li>HTML</li>
 						<li>CSS & SASS</li>
-						<li>Python</li>
-						<li>MySQL</li>
-						<li>Express</li>
 						<li>Git</li>
 						<li>Documentation</li>
-						<li>Accessibility</li>
 					</ul>
 					<br />
 					<h3 className="h5">Work History</h3>
