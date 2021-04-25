@@ -140,7 +140,7 @@ const ResumePage = () => {
 						<li>HTML</li>
 						<li>CSS & SASS</li>
 						<li>Git</li>
-						<li>Documentation</li>
+						<li>Postman</li>
 					</ul>
 					<br />
 					<h3 className="h5">Work History</h3>
