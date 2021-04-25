@@ -77,11 +77,11 @@ const ResumePage = () => {
 							<strong>
 								<em>AppTracker</em>
 							</strong>{' '}
-							: Full stack application allowing users to keep track of job applications. React Context API
-							used for state management. Backend built with a RESTful API using Node, Express, and MongoDB
-							for CRUD operations and custom middleware for authentication on protected routes. JSON Web
-							Tokens used for authentication. Custom MongoDB user and application schema. Passwords hashed
-							for encryption. <br />
+							: Full stack application created to replace storing job applications in spreadsheets. React
+							Context API used for state management. Backend built with a RESTful API using Node, Express,
+							and MongoDB for CRUD operations and custom middleware for authentication on protected
+							routes. JSON Web Tokens used for authentication. Custom MongoDB user and application schema.
+							Passwords hashed for encryption. API tests and automation done with Postman. <br />
 							<strong>Deployment</strong>:
 							<Link href="https://apptracker-app.herokuapp.com/" passHref>
 								<a target="_blank" rel="noopener">
@@ -104,10 +104,10 @@ const ResumePage = () => {
 							<strong>
 								<em>IT Log MERN App</em>
 							</strong>{' '}
-							: RESTful API built to allow a user full CRUD operations over IT logs and technicians. Built
-							using Node, Express, and MongoDB and connected to a React/Redux front end. Custom database
-							model schemas. Tested and published with Postman API documentation. Also allows search
-							queries on IT logs. <br />
+							: RESTful API built for a popular Udemy instructor’s course. Designed to allow users full
+							CRUD operations over a database of IT logs and technicians. Built using Node, Express, and
+							MongoDB and connected to a React/Redux front end. Custom database model schemas. Allows
+							search queries on IT logs. API tests and automation done with Postman. <br />
 							<strong>Deployment</strong>:
 							<Link href="https://it-log-mern-app.herokuapp.com/" passHref>
 								<a target="_blank" rel="noopener">
