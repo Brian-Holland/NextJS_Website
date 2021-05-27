@@ -51,7 +51,6 @@ const ResumePage = () => {
 				<section id="resume-print" className="pb-2 px-3">
 					<h2 className="h4">Brian Holland</h2>
 					<p>
-						Phone: 707-761-7595<br />
 						Email: Brian.Holland.PR@gmail.com<br />
 						Website:
 						<Link href="https://www.brian-holland.com" passHref>
