@@ -31,7 +31,7 @@ const AboutPage = () => {
 				<meta property="twitter:image" content="https://www.brian-holland.com/screenshot.png" />
 				<meta property="twitter:image:alt" content="Screenshot of website homepage" />
 
-				<title>Brian Holland | Software Engineer</title>
+				<title>Brian Holland | About</title>
 			</Head>
 			<Container>
 				<section id="about-bio" className="py-5 mt-5">

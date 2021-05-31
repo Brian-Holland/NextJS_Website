@@ -32,7 +32,7 @@ const ResumePage = () => {
 				/>
 				<meta property="twitter:image" content="https://www.brian-holland.com/screenshot.png" />
 				<meta property="twitter:image:alt" content="Screenshot of website homepage" />
-				<title>Brian Holland | Software Engineer</title>
+				<title>Brian Holland | Resume</title>
 			</Head>
 			<Container>
 				<section className="py-5 mt-5">

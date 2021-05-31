@@ -37,7 +37,7 @@ export default function Custom404() {
 				/>
 				<meta property="twitter:image" content="https://www.brian-holland.com/screenshot.png" />
 				<meta property="twitter:image:alt" content="Screenshot of website homepage" />
-				<title>Brian Holland | Software Engineer</title>
+				<title>Brian Holland | 404</title>
 			</Head>
 			<Container fluid>
 				<section>
